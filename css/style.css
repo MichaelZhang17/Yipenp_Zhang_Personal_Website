@@ -1,0 +1,26 @@
+<!-- File: css/style.css -->
+body {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+nav {
+  margin-bottom: 20px;
+}
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #1e3a5f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.links a {
+  margin-right: 10px;
+}
