@@ -1,54 +1,106 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Page Title</title>
+  <title>Home | Yipeng Zhang’s Personal Website</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <p>Hello world!<br>My name is Michael Zhang</p>
-=======
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;title&gt;City Explorer - Home&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link rel="stylesheet" href="css/style.css"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;nav&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="index.html"&gt;Home&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="about.html"&gt;About&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="map.html"&gt;Map&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="travel-tips.html"&gt;Travel Tips&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="europe.html"&gt;Europe&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="asia.html"&gt;Asia&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/nav&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;main&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;City Explorer&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;Welcome to City Explorer. Navigate by region to discover detailed city guides.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="links"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="map.html" class="button"&gt;Interactive Map&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="europe.html" class="button"&gt;Explore Europe&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="asia.html" class="button"&gt;Explore Asia&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
->>>>>>> 8377ffb (initial)
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+      <img src="images/profile.jpg" alt="Yipeng Zhang portrait" class="avatar">
+      <h1>Hi, I’m Yipeng Zhang</h1>
+      <p>Bringing together mathematical rigor and data-driven methods to uncover meaningful insights.</p>
+      <a href="projects.html" class="btn">See My Work</a>
+    </div>
+  </section>
+
+  <section id="intro">
+    <p>
+    I’m a senior at the University of Wisconsin–Madison studying Data Science & Mathematics.  
+    Over the past few years I’ve tackled projects in statistical analysis, predictive modeling, and data visualization—always striving to turn complex datasets into clear insights.  
+    I enjoy collaborating with others to solve real-world data problems and building reproducible Python workflows.  
+    <a href="about.html">Learn more about me →</a>
+    </p>
+  </section>
+
+  <section id="featured-projects">
+  <h2>Selected Projects & Publications</h2>
+  <ul class="project-list">
+    <li>
+      <strong>BB Algorithm Enhancements with SA & Random Walk</strong> (Under submission, 1st author):
+      <ul>
+        <li>Optimizes subsequent seed selection via simulated annealing to avoid poor initial choices.</li>
+        <li>Implements CSI to handle both overlapping and unassigned nodes through aggregated random-walk scores.</li>
+        <li>Defines clear community-merge and algorithm-stop thresholds for robust, reproducible partitions.</li>
+      </ul>
+      Manuscript available upon request.
+    </li>
+    <li>
+      <strong>Opinion Propagation Model Based on Temporal Networks</strong> (Published, 2nd author):
+      <ul>
+        <li>Integrates the SI₁I₂R framework with an activity-driven temporal network to capture both timeliness and user interaction modes.</li>
+        <li>Models opinion spread by incorporating multiple interaction types (likes, comments, shares) and their effect on propagation rates.</li>
+        <li>Analyzes how varying the time-step granularity alters propagation peaks and speeds, demonstrating the importance of snapshot intervals.</li>
+        <li>Validates the model using real Weibo data, fitting its dynamics and showing lower RMSE than a classic SIR model.</li>
+      </ul>
+      <a href="https://doi.org/10.12677/orf.2025.152092" target="_blank">doi.org/10.12677/orf.2025.152092</a>
+    </li>
+    <li>
+      <strong>DALL-E Zero: Image Forgery Detection</strong>:
+      <ul>
+        <li>Preprocessed images with OpenCV and extracted features via Pandas pipelines.</li>
+        <li>Trained a TensorFlow CNN to distinguish AI-generated from real images.</li>
+        <li>Packaged the model into a lightweight frontend for end-user testing—achieving 92% accuracy.</li>
+      </ul>
+      <a href="https://devpost.com/software/dall-e-zero?_gl=1*u4kbzw*_gcl_au*MTA4MDgxMzAxNy4xNzQwMDkwMDQ0*_ga*MTg3MDE1NTMzMS4xNzQwMDkwMDQ0*_ga_0YHJK3Y10M*MTc0MDA5MDA0NC4xLjEuMTc0MDA5MDA2MC4wLjAuMA.." target="_blank">Project Link</a>
+    </li>
+    <li>
+      <strong>AlphaQuant</strong>:
+      <ul>
+        <li>Ingested and ETLed historical stock data using Python to compute technical indicators (SMA, EMA, RSI).</li>
+        <li>Built and tuned LSTM models with Optuna for intraday direction forecasting.</li>
+        <li>Achieved &gt;60%/70% directional accuracy at 1%/2% price-change thresholds, and an annualized Sharpe ratio &gt; 1.8.</li>
+      </ul>
+      <a href="https://github.com/MichaelZhang17/AlphaQuant" target="_blank">Project Link</a>
+    </li>
+  </ul>
+</section>
+
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <ul class="skill-list">
+      <li>🐍 Python</li>
+      <li>⚡ FastAPI</li>
+      <li>📊 Pandas & NumPy</li>
+      <li>🤖 PyTorch & TensorFlow</li>
+      <li>💾 MySQL & MongoDB</li>
+    </ul>
+  </section>
+
+  <section id="cta">
+    <p><a href="contact.html">Let’s talk!</a></p>
+    <ul class="social-links">
+      <li><a href="https://github.com/MichaelZhang17" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/yipeng-zhang-931464340/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Yipeng Zhang. <a href="https://github.com/MichaelZhang17" target="_blank">GitHub</a></p>
+  </footer>
 </body>
 </html>
+
